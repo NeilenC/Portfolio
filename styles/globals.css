@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #FAFBFD;
+}
+
+.customSlider {
+
+  background-color: #16191e;
+  align-items: center;
+  min-width: 100%;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.customSlider:before,
+.customSlider:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1));
+  z-index: 1;
+}
+
+
+
+@font-face {
+  font-family: 'Fjalla One, sans-serif;';
+  src: url('https://fonts.google.com/specimen/Fjalla+One?query=type') format('truetype');
+  /* Ajusta la ruta y el formato según corresponda a tu fuente descargada */
+}
+
+@font-face {
+  font-family: 'Bungee, cursive;';
+  src: url('https://fonts.googleapis.com/css2?family=Bungee&family=Fjalla+One&display=swap') format('truetype');
+  /* Ajusta la ruta y el formato según corresponda a tu fuente descargada */
+}
